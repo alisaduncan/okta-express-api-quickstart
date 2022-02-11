@@ -14,7 +14,7 @@ This code sample demonstrates
 To run this example, run the following commands:
 
 ```shell
-git clone https://github.com/oktadev/okta-express-api-quickstart.git
+git clone https://github.com/okta-samples/okta-express-api-quickstart.git
 cd okta-express-api-quickstart
 npm ci
 ```
