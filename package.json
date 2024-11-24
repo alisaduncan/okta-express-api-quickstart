@@ -8,8 +8,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "@okta/jwt-verifier": "^2.3.0",
+    "@okta/jwt-verifier": "^4.0.1",
     "cors": "^2.8.5",
-    "express": "^4.17.2"
+    "express": "^4.21.1"
   }
 }
