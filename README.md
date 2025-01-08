@@ -1,6 +1,6 @@
 # Express API Quickstart Sample Code for Integrating with Okta
 
-This repository contains a sample of protecting API endpoints using [Okta](https://www.okta.com/) in a [Node Express API](https://developer.okta.com/docs/guides/protect-your-api/nodeexpress/main/).
+This repository contains a sample of protecting API endpoints in a custom resource server using a custom authorization server in [Okta](https://www.okta.com/). The code example is a [Node Express API](https://developer.okta.com/docs/guides/protect-your-api/nodeexpress/main/).
 
 The sample uses the [Okta JWT Verifier SDK](https://github.com/okta/okta-jwt-verifier-js). Read more about getting started with Okta and authentication best practices on the [Okta Developer Portal](https://developer.okta.com).
 
@@ -28,6 +28,8 @@ When using the Okta CLI run the following command:
 ```shell
 okta register
 ```
+
+Ensure that your default custom authorization server has an access policy. Add an access policy if it's not there. See [Create access polices](https://help.okta.com/okta_help.htm?type=oie&id=ext-create-access-policies).
 
 You will need your Okta domain and Audience.
 
